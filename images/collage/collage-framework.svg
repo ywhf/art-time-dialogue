@@ -1,1 +1,51 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 白色背景 -->
+  <rect width="800" height="600" fill="white"/>
+  
+  <!-- 1. 米开朗基罗的《大卫》与贝尼尼的《大卫》对比 - 大矩形，位于左上方 -->
+  <rect x="50" y="50" width="300" height="200" fill="#f2f2f2" stroke="#333" stroke-width="2"/>
+  <text x="200" y="150" font-family="Arial" font-size="24" text-anchor="middle">1</text>
+  <text x="200" y="180" font-family="Arial" font-size="12" text-anchor="middle">永恒 vs 瞬间</text>
+  
+  <!-- 2. 莫奈的《鲁昂大教堂》系列 - 中等大小的圆形，位于右上方 -->
+  <circle cx="550" cy="120" r="100" fill="#e6f2ff" stroke="#333" stroke-width="2"/>
+  <text x="550" y="120" font-family="Arial" font-size="24" text-anchor="middle">2</text>
+  <text x="550" y="150" font-family="Arial" font-size="12" text-anchor="middle">光影中的时间</text>
+  
+  <!-- 3. 布列松的决定性瞬间摄影 - 小矩形，位于中央偏左 -->
+  <rect x="100" y="280" width="150" height="100" fill="#ffe6e6" stroke="#333" stroke-width="2"/>
+  <text x="175" y="330" font-family="Arial" font-size="24" text-anchor="middle">3</text>
+  <text x="175" y="360" font-family="Arial" font-size="12" text-anchor="middle">决定性瞬间</text>
+  
+  <!-- 4. 毕加索的立体主义作品 - 不规则多边形，位于中央 -->
+  <polygon points="350,250 450,200 500,300 400,350 320,320" fill="#e6ffe6" stroke="#333" stroke-width="2"/>
+  <text x="410" y="280" font-family="Arial" font-size="24" text-anchor="middle">4</text>
+  <text x="410" y="310" font-family="Arial" font-size="12" text-anchor="middle">同时性</text>
+  
+  <!-- 5. 博丘尼的雕塑 - 椭圆形，位于右侧中部 -->
+  <ellipse cx="600" cy="300" rx="80" ry="120" fill="#fff2e6" stroke="#333" stroke-width="2"/>
+  <text x="600" y="300" font-family="Arial" font-size="24" text-anchor="middle">5</text>
+  <text x="600" y="330" font-family="Arial" font-size="12" text-anchor="middle">运动的连续性</text>
+  
+  <!-- 6. 阿布拉莫维奇的《艺术家在场》- 大圆形，位于左下方 -->
+  <circle cx="150" y="450" r="120" fill="#e6e6ff" stroke="#333" stroke-width="2"/>
+  <text x="150" y="450" font-family="Arial" font-size="24" text-anchor="middle">6</text>
+  <text x="150" y="480" font-family="Arial" font-size="12" text-anchor="middle">体验中的时间</text>
+  
+  <!-- 7. 比尔·维奥拉的数字时间装置 - 长方形，位于右下方 -->
+  <rect x="450" y="400" width="280" height="150" fill="#f2e6ff" stroke="#333" stroke-width="2"/>
+  <text x="590" y="475" font-family="Arial" font-size="24" text-anchor="middle">7</text>
+  <text x="590" y="505" font-family="Arial" font-size="12" text-anchor="middle">数字化的时间</text>
+  
+  <!-- 连接线，表现元素之间的关系和流动 -->
+  <line x1="200" y1="250" x2="320" y2="280" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="350" y1="150" x2="450" y2="200" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="450" y1="320" x2="520" y2="300" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="250" y1="350" x2="250" y2="380" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="550" y1="220" x2="580" y2="250" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="270" y1="450" x2="450" y2="450" stroke="#999" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">艺术中的时间性：永恒与瞬间的对话</text>
+  <text x="400" y="580" font-family="Arial" font-size="14" text-anchor="middle">by Evelyn Thorne</text>
+</svg>
